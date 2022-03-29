@@ -56,11 +56,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddEmployee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddEmployee.Designer.cs">
+      <DependentUpon>AddEmployee.cs</DependentUpon>
+    </Compile>
     <Compile Include="AddRows.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="AddRows.Designer.cs">
       <DependentUpon>AddRows.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddSales.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddSales.Designer.cs">
+      <DependentUpon>AddSales.cs</DependentUpon>
     </Compile>
     <Compile Include="Catalog.cs">
       <SubType>Form</SubType>
@@ -68,11 +80,23 @@
     <Compile Include="Catalog.Designer.cs">
       <DependentUpon>Catalog.cs</DependentUpon>
     </Compile>
+    <Compile Include="DeleteEmployee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DeleteEmployee.Designer.cs">
+      <DependentUpon>DeleteEmployee.cs</DependentUpon>
+    </Compile>
     <Compile Include="DeleteRow.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="DeleteRow.Designer.cs">
       <DependentUpon>DeleteRow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DeleteSale.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DeleteSale.Designer.cs">
+      <DependentUpon>DeleteSale.cs</DependentUpon>
     </Compile>
     <Compile Include="Electronic_GYMDataSet.cs">
       <DependentUpon>Electronic_GYMDataSet.xsd</DependentUpon>
@@ -102,7 +126,18 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Electronic_GYMDataSet4.xsd</DependentUpon>
     </Compile>
+    <Compile Include="Electronic_GYMDataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Electronic_GYMDataSet5.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Employee.cs" />
+    <Compile Include="EmployeesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EmployeesForm.Designer.cs">
+      <DependentUpon>EmployeesForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -114,20 +149,41 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Sale.cs" />
+    <Compile Include="SalesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SalesForm.Designer.cs">
+      <DependentUpon>SalesForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="UpdateRow.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="UpdateRow.Designer.cs">
       <DependentUpon>UpdateRow.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="AddEmployee.resx">
+      <DependentUpon>AddEmployee.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="AddRows.resx">
       <DependentUpon>AddRows.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddSales.resx">
+      <DependentUpon>AddSales.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Catalog.resx">
       <DependentUpon>Catalog.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="DeleteEmployee.resx">
+      <DependentUpon>DeleteEmployee.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="DeleteRow.resx">
       <DependentUpon>DeleteRow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DeleteSale.resx">
+      <DependentUpon>DeleteSale.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmployeesForm.resx">
+      <DependentUpon>EmployeesForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
@@ -141,6 +197,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="SalesForm.resx">
+      <DependentUpon>SalesForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UpdateRow.resx">
       <DependentUpon>UpdateRow.cs</DependentUpon>
     </EmbeddedResource>
@@ -198,6 +257,17 @@
     </None>
     <None Include="Electronic_GYMDataSet4.xss">
       <DependentUpon>Electronic_GYMDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="Electronic_GYMDataSet5.xsc">
+      <DependentUpon>Electronic_GYMDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="Electronic_GYMDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Electronic_GYMDataSet5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Electronic_GYMDataSet5.xss">
+      <DependentUpon>Electronic_GYMDataSet5.xsd</DependentUpon>
     </None>
     <None Include="packages.config" />
     <None Include="Properties\DataSources\UpdateRow.datasource" />

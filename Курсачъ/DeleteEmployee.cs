@@ -3,33 +3,24 @@ using System.Windows.Forms;
 
 namespace Курсачъ
 {
-    public partial class DeleteRow : Form
+    public partial class DeleteEmployee : Form
     {
-        
-        public DeleteRow()
+        public DeleteEmployee()
         {
             InitializeComponent();
         }
 
-        
-        private void DeleteRow_Load(object sender, EventArgs e)
-        {
-            // TODO: данная строка кода позволяет загрузить данные в таблицу "electronic_GYMDataSet3.Products". При необходимости она может быть перемещена или удалена.
-            this.productsTableAdapter.Fill(this.electronic_GYMDataSet3.Products);
-
-        }
-
-        private void DeleteButton_Click(object sender, EventArgs e)
+        private void DeleteProduct_Click(object sender, EventArgs e)
         {
             using (MyDBContext context = new MyDBContext())
             {
                 if (textBox1.Text != "")
                 {
                     var ID = Convert.ToInt32(textBox1.Text);
-                    Product product = context.Products.Find(ID);
-                    if (product != null)
+                    Employee employee = context.Employees.Find(ID);
+                    if (employee != null)
                     {
-                        context.Products.Remove(product);
+                        context.Employees.Remove(employee);
                         context.SaveChanges();
                         MessageBox.Show("Строка удалена!");
                         Close();

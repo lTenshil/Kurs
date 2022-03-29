@@ -16,6 +16,19 @@ namespace Курсачъ
         public int Guarantee_period { get; set; }
         public virtual ICollection<Sale> Sale { get; set; }
 
+        public Product(int id, string name, string category, string subCategory, decimal price, string parameter, string manufacturer, DateTime dateOfManufacturer, int guarantee_period)
+        {
+            Id = id;
+            Name = name;
+            Category = category;
+            SubCategory = subCategory;
+            Price = price;
+            Parameter = parameter;
+            Manufacturer = manufacturer;
+            DateOfManufacturer = dateOfManufacturer;
+            Guarantee_period = guarantee_period;
+        }
+
         public Product(string name, string category, string subCategory, decimal price, string parameter, string manufacturer, DateTime dateOfManufacturer, int guarantee_period)
         {
             Name = name;
@@ -27,6 +40,7 @@ namespace Курсачъ
             DateOfManufacturer = dateOfManufacturer;
             Guarantee_period = guarantee_period;
         }
+
         public Product ()
         {
 

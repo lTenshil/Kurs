@@ -13,5 +13,33 @@ namespace Курсачъ
 
         public virtual Product Product { get; set; }
         public virtual Employee Employee { get; set; }
+
+        public Sale(int saleId, int product_Id, int employeeId, int quantity, DateTime dateOfOrder, decimal cost)
+        {
+            SaleId = saleId;
+            Product_Id = product_Id;
+            EmployeeId = employeeId;
+            Quantity = quantity;
+            DateOfOrder = dateOfOrder;
+            Cost = cost;
+        }
+
+        public Sale(int product_Id, int employeeId, int quantity, DateTime dateOfOrder)
+        {
+            Product_Id = product_Id;
+            EmployeeId = employeeId;
+            Quantity = quantity;
+            DateOfOrder = dateOfOrder;
+        }
+
+        public Sale(int product_Id, int employeeId, int quantity, DateTime dateOfOrder, decimal cost) : this(product_Id, employeeId, quantity, dateOfOrder)
+        {
+            Cost = cost;
+        }
+
+        public Sale()
+        {
+
+        }
     }
 }
