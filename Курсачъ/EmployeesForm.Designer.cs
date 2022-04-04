@@ -31,19 +31,19 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(EmployeesForm));
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.electronic_GYMDataSet2 = new Курсачъ.Electronic_GYMDataSet2();
-            this.employeesBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.employeesTableAdapter = new Курсачъ.Electronic_GYMDataSet2TableAdapters.EmployeesTableAdapter();
             this.idDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.fullnameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.experienceDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.salaryDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.employeesBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.electronic_GYMDataSet2 = new Курсачъ.Electronic_GYMDataSet2();
+            this.employeesTableAdapter = new Курсачъ.Electronic_GYMDataSet2TableAdapters.EmployeesTableAdapter();
             this.AddRows = new System.Windows.Forms.Button();
             this.RefreshButton = new System.Windows.Forms.Button();
             this.DeleteProduct = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.electronic_GYMDataSet2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.employeesBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.electronic_GYMDataSet2)).BeginInit();
             this.SuspendLayout();
             // 
             // dataGridView1
@@ -66,20 +66,6 @@
             this.dataGridView1.ReadOnly = true;
             this.dataGridView1.Size = new System.Drawing.Size(748, 256);
             this.dataGridView1.TabIndex = 0;
-            // 
-            // electronic_GYMDataSet2
-            // 
-            this.electronic_GYMDataSet2.DataSetName = "Electronic_GYMDataSet2";
-            this.electronic_GYMDataSet2.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // employeesBindingSource
-            // 
-            this.employeesBindingSource.DataMember = "Employees";
-            this.employeesBindingSource.DataSource = this.electronic_GYMDataSet2;
-            // 
-            // employeesTableAdapter
-            // 
-            this.employeesTableAdapter.ClearBeforeFill = true;
             // 
             // idDataGridViewTextBoxColumn
             // 
@@ -108,6 +94,20 @@
             this.salaryDataGridViewTextBoxColumn.HeaderText = "Salary";
             this.salaryDataGridViewTextBoxColumn.Name = "salaryDataGridViewTextBoxColumn";
             this.salaryDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // employeesBindingSource
+            // 
+            this.employeesBindingSource.DataMember = "Employees";
+            this.employeesBindingSource.DataSource = this.electronic_GYMDataSet2;
+            // 
+            // electronic_GYMDataSet2
+            // 
+            this.electronic_GYMDataSet2.DataSetName = "Electronic_GYMDataSet2";
+            this.electronic_GYMDataSet2.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // employeesTableAdapter
+            // 
+            this.employeesTableAdapter.ClearBeforeFill = true;
             // 
             // AddRows
             // 
@@ -171,8 +171,8 @@
             this.Text = "EmployeesForm";
             this.Load += new System.EventHandler(this.EmployeesForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.electronic_GYMDataSet2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.employeesBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.electronic_GYMDataSet2)).EndInit();
             this.ResumeLayout(false);
 
         }

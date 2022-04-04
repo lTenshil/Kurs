@@ -37,18 +37,18 @@
             this.DeleteProduct = new System.Windows.Forms.Button();
             this.RefreshButton = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.electronic_GYMDataSet4 = new Курсачъ.Electronic_GYMDataSet4();
-            this.salesBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
-            this.salesTableAdapter1 = new Курсачъ.Electronic_GYMDataSet4TableAdapters.SalesTableAdapter();
-            this.electronic_GYMDataSet5 = new Курсачъ.Electronic_GYMDataSet5();
-            this.salesBindingSource2 = new System.Windows.Forms.BindingSource(this.components);
-            this.salesTableAdapter2 = new Курсачъ.Electronic_GYMDataSet5TableAdapters.SalesTableAdapter();
             this.saleIdDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Product_Id1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.employeeIdDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.quantityDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dateOfOrderDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.costDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.electronic_GYMDataSet4 = new Курсачъ.Electronic_GYMDataSet4();
+            this.salesBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+            this.salesTableAdapter1 = new Курсачъ.Electronic_GYMDataSet4TableAdapters.SalesTableAdapter();
+            this.electronic_GYMDataSet5 = new Курсачъ.Electronic_GYMDataSet5();
+            this.salesBindingSource2 = new System.Windows.Forms.BindingSource(this.components);
+            this.salesTableAdapter2 = new Курсачъ.Electronic_GYMDataSet5TableAdapters.SalesTableAdapter();
             ((System.ComponentModel.ISupportInitialize)(this.electronic_GYMDataSet3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.salesBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -142,34 +142,6 @@
             this.dataGridView1.Size = new System.Drawing.Size(722, 300);
             this.dataGridView1.TabIndex = 9;
             // 
-            // electronic_GYMDataSet4
-            // 
-            this.electronic_GYMDataSet4.DataSetName = "Electronic_GYMDataSet4";
-            this.electronic_GYMDataSet4.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // salesBindingSource1
-            // 
-            this.salesBindingSource1.DataMember = "Sales";
-            this.salesBindingSource1.DataSource = this.electronic_GYMDataSet4;
-            // 
-            // salesTableAdapter1
-            // 
-            this.salesTableAdapter1.ClearBeforeFill = true;
-            // 
-            // electronic_GYMDataSet5
-            // 
-            this.electronic_GYMDataSet5.DataSetName = "Electronic_GYMDataSet5";
-            this.electronic_GYMDataSet5.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // salesBindingSource2
-            // 
-            this.salesBindingSource2.DataMember = "Sales";
-            this.salesBindingSource2.DataSource = this.electronic_GYMDataSet5;
-            // 
-            // salesTableAdapter2
-            // 
-            this.salesTableAdapter2.ClearBeforeFill = true;
-            // 
             // saleIdDataGridViewTextBoxColumn
             // 
             this.saleIdDataGridViewTextBoxColumn.DataPropertyName = "SaleId";
@@ -211,6 +183,34 @@
             this.costDataGridViewTextBoxColumn.HeaderText = "Cost";
             this.costDataGridViewTextBoxColumn.Name = "costDataGridViewTextBoxColumn";
             this.costDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // electronic_GYMDataSet4
+            // 
+            this.electronic_GYMDataSet4.DataSetName = "Electronic_GYMDataSet4";
+            this.electronic_GYMDataSet4.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // salesBindingSource1
+            // 
+            this.salesBindingSource1.DataMember = "Sales";
+            this.salesBindingSource1.DataSource = this.electronic_GYMDataSet4;
+            // 
+            // salesTableAdapter1
+            // 
+            this.salesTableAdapter1.ClearBeforeFill = true;
+            // 
+            // electronic_GYMDataSet5
+            // 
+            this.electronic_GYMDataSet5.DataSetName = "Electronic_GYMDataSet5";
+            this.electronic_GYMDataSet5.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // salesBindingSource2
+            // 
+            this.salesBindingSource2.DataMember = "Sales";
+            this.salesBindingSource2.DataSource = this.electronic_GYMDataSet5;
+            // 
+            // salesTableAdapter2
+            // 
+            this.salesTableAdapter2.ClearBeforeFill = true;
             // 
             // SalesForm
             // 

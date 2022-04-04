@@ -8,7 +8,13 @@ namespace Курсачъ
         public SalesForm()
         {
             InitializeComponent();
-            
+            dataGridView1.Columns[0].HeaderText = "Id";
+            dataGridView1.Columns[1].HeaderText = "Id товара";
+            dataGridView1.Columns[2].HeaderText = "Id сотрудника";
+            dataGridView1.Columns[3].HeaderText = "Количество";
+            dataGridView1.Columns[4].HeaderText = "Дата заказа";
+            dataGridView1.Columns[5].HeaderText = "Стоимость";
+
         }
 
         private void SalesForm_Load(object sender, EventArgs e)

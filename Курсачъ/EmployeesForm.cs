@@ -8,6 +8,10 @@ namespace Курсачъ
         public EmployeesForm()
         {
             InitializeComponent();
+            dataGridView1.Columns[0].HeaderText = "Id";
+            dataGridView1.Columns[1].HeaderText = "Ф.И.О.";
+            dataGridView1.Columns[2].HeaderText = "Стаж";
+            dataGridView1.Columns[3].HeaderText = "Зарплата";
         }
 
         private void EmployeesForm_Load(object sender, EventArgs e)

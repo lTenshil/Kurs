@@ -76,9 +76,9 @@ namespace Курсачъ
             this.CatalogButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.CatalogButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.CatalogButton.ForeColor = System.Drawing.Color.Red;
-            this.CatalogButton.Location = new System.Drawing.Point(63, 12);
+            this.CatalogButton.Location = new System.Drawing.Point(34, 43);
             this.CatalogButton.Name = "CatalogButton";
-            this.CatalogButton.Size = new System.Drawing.Size(156, 53);
+            this.CatalogButton.Size = new System.Drawing.Size(135, 53);
             this.CatalogButton.TabIndex = 0;
             this.CatalogButton.Text = "Каталог";
             this.CatalogButton.UseVisualStyleBackColor = false;
@@ -91,9 +91,9 @@ namespace Курсачъ
             this.SearchButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.SearchButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.SearchButton.ForeColor = System.Drawing.Color.Red;
-            this.SearchButton.Location = new System.Drawing.Point(561, 13);
+            this.SearchButton.Location = new System.Drawing.Point(34, 266);
             this.SearchButton.Name = "SearchButton";
-            this.SearchButton.Size = new System.Drawing.Size(145, 53);
+            this.SearchButton.Size = new System.Drawing.Size(135, 53);
             this.SearchButton.TabIndex = 3;
             this.SearchButton.Text = "Поиск";
             this.SearchButton.UseVisualStyleBackColor = false;
@@ -106,9 +106,9 @@ namespace Курсачъ
             this.SaleButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.SaleButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.SaleButton.ForeColor = System.Drawing.Color.Red;
-            this.SaleButton.Location = new System.Drawing.Point(394, 12);
+            this.SaleButton.Location = new System.Drawing.Point(34, 179);
             this.SaleButton.Name = "SaleButton";
-            this.SaleButton.Size = new System.Drawing.Size(150, 53);
+            this.SaleButton.Size = new System.Drawing.Size(135, 53);
             this.SaleButton.TabIndex = 4;
             this.SaleButton.Text = "Заказы";
             this.SaleButton.UseVisualStyleBackColor = false;
@@ -121,10 +121,10 @@ namespace Курсачъ
             this.EmployeeButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.EmployeeButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.EmployeeButton.ForeColor = System.Drawing.Color.Red;
-            this.EmployeeButton.Location = new System.Drawing.Point(239, 12);
+            this.EmployeeButton.Location = new System.Drawing.Point(34, 112);
             this.EmployeeButton.Margin = new System.Windows.Forms.Padding(0);
             this.EmployeeButton.Name = "EmployeeButton";
-            this.EmployeeButton.Size = new System.Drawing.Size(140, 53);
+            this.EmployeeButton.Size = new System.Drawing.Size(135, 53);
             this.EmployeeButton.TabIndex = 5;
             this.EmployeeButton.Text = "Сотрудники";
             this.EmployeeButton.UseVisualStyleBackColor = false;
@@ -349,7 +349,7 @@ namespace Курсачъ
             this.Search_Subcategory.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Search_Subcategory.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Search_Subcategory.ForeColor = System.Drawing.Color.Red;
-            this.Search_Subcategory.Location = new System.Drawing.Point(609, 17);
+            this.Search_Subcategory.Location = new System.Drawing.Point(609, 18);
             this.Search_Subcategory.Name = "Search_Subcategory";
             this.Search_Subcategory.Size = new System.Drawing.Size(115, 43);
             this.Search_Subcategory.TabIndex = 13;
